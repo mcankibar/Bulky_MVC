@@ -1,23 +1,37 @@
-E-Commerce Application
+# Foobar
 
-This project is a complete e-commerce web application built using ASP.NET Core MVC. It follows modern web development practices and is designed with a scalable and maintainable architecture.
-Features
+Foobar is a Python library for dealing with word pluralization.
 
-    Category Management: Full CRUD operations for product categories.
-    Product Management: Manage products with images, descriptions, and pricing.
-    User Authentication: Integrated authentication and authorization using Identity in .NET Core.
-    Shopping Cart: Add, update, and remove items from the cart.
-    Order Management: Place and manage orders with confirmation emails.
-    Responsive Design: Built using Razor pages and Bootstrap for a mobile-friendly experience.
-    N-Tier Architecture: Organized into layers for scalability and maintainability.
-    Repository Pattern: Implemented for clean data access and abstraction.
-    Deployment: Successfully deployed the application for testing.
+## Installation
 
-Technologies Used
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-    Backend: ASP.NET Core MVC, Entity Framework Core
-    Frontend: Razor Pages, Bootstrap
-    Database: SQL Server
-    Authentication: Identity in .NET Core
-    Version Control: Git & GitHub
-    Deployment: IIS and hosting tools
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
